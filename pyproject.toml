@@ -1,0 +1,27 @@
+[project]
+name = "creating-an-open-source-project-in-python-3085072"
+version = "0.1.0"
+description = "An open-source Python project."
+authors = [
+    {name = "Rob Michael",email = "robmichael93@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "click (==8.1.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "pytest (>=8.4.2,<9.0.0)",
+    "black (>=25.9.0,<26.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)",
+    "pre-commit (>=4.3.0,<5.0.0)",
+    "tox (>=4.32.0,<5.0.0)"
+]
