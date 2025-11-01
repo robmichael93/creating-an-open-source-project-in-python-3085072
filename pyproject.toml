@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "click (==8.1.0)",
-    "pytest (==7.1.2)"
+    "pytest (==7.1.2)",
 ]
 
 
@@ -24,5 +24,5 @@ dev = [
     "black (==22.6.0)",
     "flake8 (==5.0.4)",
     "pre-commit (==2.20.0)",
-    "tox (==3.25.1)"
+    "tox (==3.25.1)",
 ]
